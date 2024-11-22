@@ -87,14 +87,14 @@ std::string String::join(const std::vector<std::string>& input, char separator)
   return join(input, std::string(1, separator));
 }
 
-bool String::hasPrefix(const std::string& input, const std::string& prefix)
+bool String::startsWith(const std::string& input, const std::string& prefix)
 {
   if (input.size() < prefix.size())
     return false;
   return input.substr(0, prefix.size()) == prefix;
 }
 
-bool String::hasSuffix(const std::string& input, const std::string& suffix)
+bool String::endsWith(const std::string& input, const std::string& suffix)
 {
   if (input.size() < suffix.size())
     return false;

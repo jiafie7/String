@@ -22,8 +22,8 @@ int main()
   std::cout << String::join(v, "/") << '\n';
 
   std::cout << std::boolalpha;
-  std::cout << String::hasPrefix("abcdefg", "abc") << '\n';
-  std::cout << String::hasSuffix("abcdefg", "efg") << '\n';
+  std::cout << String::startsWith("abcdefg", "abc") << '\n';
+  std::cout << String::endsWith("abcdefg", "efg") << '\n';
   std::cout << std::noboolalpha;
 
   std::cout << String::capitalize("abc") << '\n';  

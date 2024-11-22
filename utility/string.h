@@ -30,8 +30,8 @@ namespace melon
         static std::string join(const std::vector<std::string>& input, const std::string& separator);
         static std::string join(const std::vector<std::string>& input, char separator);
 
-        static bool hasPrefix(const std::string& input, const std::string& prefix);
-        static bool hasSuffix(const std::string& input, const std::string& suffix);
+        static bool startsWith(const std::string& input, const std::string& prefix);
+        static bool endsWith(const std::string& input, const std::string& suffix);
 
         static std::string capitalize(const std::string& input);
         static std::string format(const char* fmt, ...);
