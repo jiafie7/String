@@ -18,8 +18,8 @@ A C++ String utility class that extends the functionality of standard string man
 
 3. **String Splitting and Joining**
 
-   - **Split string**: Split a string into a `std::vector<std::string>` based on a given delimiter.
-   - **Join strings**: Join elements of a `std::vector<std::string>` into a single string with a specified delimiter.
+   - **Split string**: Split a string into a `std::vector<std::string>` based on a given separator.
+   - **Join strings**: Join elements of a `std::vector<std::string>` into a single string with a specified separator.
 
 4. **Prefix and Suffix Checks**
 
